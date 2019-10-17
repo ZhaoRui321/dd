@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>picture/icons/DL-OFF.png</file>
+        <file>picture/icons/DL-ON.png</file>
+        <file>picture/icons/HV-OFF.png</file>
+        <file>picture/icons/HV-ON.png</file>
+        <file>picture/icons/LOGO.png</file>
+        <file>picture/icons/R1-0.png</file>
+        <file>picture/icons/R1-1.png</file>
+        <file>picture/icons/R2-0.png</file>
+        <file>picture/icons/R2-1.png</file>
+        <file>picture/icons/R3-0.png</file>
+        <file>picture/icons/R3-1.png</file>
+        <file>picture/icons/R4-0.png</file>
+        <file>picture/icons/R4-1.png</file>
+        <file>picture/icons/START.png</file>
+        <file>picture/icons/START-0.png</file>
+        <file>picture/icons/STOP.png</file>
+        <file>picture/icons/USER.png</file>
+        <file>picture/icons/V-OFF.png</file>
+        <file>picture/icons/V-ON.png</file>
+        <file>picture/icons/RECOVER.png</file>
+        <file>picture/icons/SNAP.png</file>
+    </qresource>
+</RCC>

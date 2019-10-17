@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sWidgetCalibration</class>
+ <widget class="QWidget" name="sWidgetCalibration">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>401</width>
+    <height>239</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="8" column="3" rowspan="2">
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="Line" name="line_3">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="UI_CB_ENABLE">
+       <property name="text">
+        <string>启用校正参数</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="UI_PB_CALIBRAT">
+       <property name="text">
+        <string>重新校正</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0" colspan="3">
+    <widget class="QLineEdit" name="UI_LE_EXPECT0"/>
+   </item>
+   <item row="4" column="0" colspan="3">
+    <widget class="QLineEdit" name="UI_LE_EXPECT3"/>
+   </item>
+   <item row="7" column="0" colspan="4">
+    <widget class="Line" name="line">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0" colspan="3">
+    <widget class="QLineEdit" name="UI_LE_EXPECT2"/>
+   </item>
+   <item row="6" column="0" colspan="3">
+    <widget class="QLineEdit" name="UI_LE_EXPECT5"/>
+   </item>
+   <item row="5" column="0" colspan="3">
+    <widget class="QLineEdit" name="UI_LE_EXPECT4"/>
+   </item>
+   <item row="2" column="0" colspan="3">
+    <widget class="QLineEdit" name="UI_LE_EXPECT1"/>
+   </item>
+   <item row="0" column="3">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>实际质量值</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="3">
+    <widget class="QLineEdit" name="UI_LE_CURRENT5"/>
+   </item>
+   <item row="3" column="3">
+    <widget class="QLineEdit" name="UI_LE_CURRENT2"/>
+   </item>
+   <item row="9" column="2">
+    <widget class="QLineEdit" name="UI_LE_PLOY_D">
+     <property name="text">
+      <string>3</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="3">
+    <widget class="QLineEdit" name="UI_LE_CURRENT4"/>
+   </item>
+   <item row="2" column="3">
+    <widget class="QLineEdit" name="UI_LE_CURRENT1"/>
+   </item>
+   <item row="8" column="0">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>质量拓展（Th）：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="2">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>拟合阶数：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="3">
+    <widget class="QLineEdit" name="UI_LE_CURRENT3"/>
+   </item>
+   <item row="1" column="3">
+    <widget class="QLineEdit" name="UI_LE_CURRENT0"/>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLineEdit" name="UI_LE_MassExtension"/>
+   </item>
+   <item row="8" column="1" rowspan="2">
+    <widget class="Line" name="line_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="3">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>理论质量值</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

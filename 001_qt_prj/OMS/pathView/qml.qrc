@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MainForm.ui.qml</file>
+        <file>CoverFlow.qml</file>
+        <file>MyDelegate.qml</file>
+        <file>images/timg0.jpg</file>
+        <file>images/timg0.png</file>
+        <file>images/timg1.jpg</file>
+        <file>images/timg2.jpg</file>
+        <file>images/timg3.jpg</file>
+        <file>images/timg4.jpg</file>
+    </qresource>
+</RCC>

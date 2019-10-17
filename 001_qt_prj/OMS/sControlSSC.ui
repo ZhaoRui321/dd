@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sControlSSC</class>
+ <widget class="QWidget" name="sControlSSC">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1126</width>
+    <height>645</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="L_connect">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="B_Update">
+       <property name="text">
+        <string>Save</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QTableWidget" name="TABLE_CCS">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>135</height>
+        </size>
+       </property>
+       <row>
+        <property name="text">
+         <string>Original</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>JavaScript</string>
+        </property>
+       </row>
+       <row>
+        <property name="text">
+         <string>Value</string>
+        </property>
+       </row>
+       <column>
+        <property name="text">
+         <string>CCS_ADC1</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>CCS_ADC2</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>CCS_ADC3</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>CCS_ADC4</string>
+        </property>
+       </column>
+       <item row="0" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="0" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="0" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="0" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+        <property name="flags">
+         <set>ItemIsDragEnabled|ItemIsEnabled</set>
+        </property>
+       </item>
+       <item row="1" column="0">
+        <property name="text">
+         <string>return CCS_ADC1;</string>
+        </property>
+       </item>
+       <item row="2" column="0">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="1">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="2">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+       <item row="2" column="3">
+        <property name="text">
+         <string>0</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="6">
+      <widget class="QPushButton" name="UI_PB_IO5">
+       <property name="text">
+        <string>On</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="UI_L_SWITCH">
+       <property name="text">
+        <string>Switch</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <widget class="QPushButton" name="UI_PB_IO3">
+       <property name="text">
+        <string>On</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="7">
+      <widget class="QPushButton" name="UI_PB_IO6">
+       <property name="text">
+        <string>On</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QPushButton" name="UI_PB_IO2">
+       <property name="text">
+        <string>On</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="UI_PB_IO0">
+       <property name="text">
+        <string>On</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="5">
+      <widget class="QPushButton" name="UI_PB_IO4">
+       <property name="text">
+        <string>On</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="UI_PB_IO1">
+       <property name="text">
+        <string>On</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="8">
+      <widget class="QPushButton" name="UI_PB_IO7">
+       <property name="text">
+        <string>On</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Tab 1</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QTableWidget" name="TABLE_TempSet">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>150</height>
+          </size>
+         </property>
+         <row>
+          <property name="text">
+           <string>Original</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>JavaScript</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Value</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>PID</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>TempSet1</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>TempSet2</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>TempSet3</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>TempSet4</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>TempSet5</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>TempSet6</string>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>0</string>
+          </property>
+          <property name="flags">
+           <set>ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+          </property>
+         </item>
+         <item row="0" column="1">
+          <property name="text">
+           <string>0</string>
+          </property>
+          <property name="flags">
+           <set>ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+          </property>
+         </item>
+         <item row="0" column="2">
+          <property name="text">
+           <string>0</string>
+          </property>
+          <property name="flags">
+           <set>ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+          </property>
+         </item>
+         <item row="0" column="3">
+          <property name="text">
+           <string>0</string>
+          </property>
+          <property name="flags">
+           <set>ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+          </property>
+         </item>
+         <item row="0" column="4">
+          <property name="text">
+           <string>0</string>
+          </property>
+          <property name="flags">
+           <set>ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+          </property>
+         </item>
+         <item row="0" column="5">
+          <property name="text">
+           <string>0</string>
+          </property>
+          <property name="flags">
+           <set>ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>0</string>
+          </property>
+          <property name="flags">
+           <set>ItemIsSelectable|ItemIsEditable|ItemIsDragEnabled|ItemIsUserCheckable|ItemIsEnabled</set>
+          </property>
+         </item>
+         <item row="2" column="1">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="2">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="3">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="4">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="5">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="3" column="0">
+          <property name="text">
+           <string>0@0@0</string>
+          </property>
+         </item>
+         <item row="3" column="1">
+          <property name="text">
+           <string>0@0@0</string>
+          </property>
+         </item>
+         <item row="3" column="2">
+          <property name="text">
+           <string>0@0@0</string>
+          </property>
+         </item>
+         <item row="3" column="3">
+          <property name="text">
+           <string>0@0@0</string>
+          </property>
+         </item>
+         <item row="3" column="4">
+          <property name="text">
+           <string>0@0@0</string>
+          </property>
+         </item>
+         <item row="3" column="5">
+          <property name="text">
+           <string>0@0@0</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="TABLE_DacSet">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>120</height>
+          </size>
+         </property>
+         <row>
+          <property name="text">
+           <string>Original</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>JavaScript</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Value</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>DAC1</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>DAC2</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>DAC3</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>DAC4</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>DAC5</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>DAC6</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>DAC7</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>DAC8</string>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="1">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="2">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="3">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="4">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="5">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="6">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="7">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="1">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="2">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="3">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="4">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="5">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="6">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="7">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Tab 2</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QTableWidget" name="TABLE_TempGet">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>120</height>
+          </size>
+         </property>
+         <row>
+          <property name="text">
+           <string>Original</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>JavaScript</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Value</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>TempGet1</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>TempGet2</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>TempGet3</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>TempGet4</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>TempGet5</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>TempGet6</string>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="1">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="2">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="3">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="4">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="5">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="1">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="2">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="3">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="4">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="5">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="TABLE_ADC1">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>120</height>
+          </size>
+         </property>
+         <row>
+          <property name="text">
+           <string>Original</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>JavaScript</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Value</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>ADC1</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>ADC2</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>ADC3</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>ADC4</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>ADC5</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>ADC6</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>ADC7</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>ADC8</string>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="1">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="2">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="3">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="4">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="5">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="6">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="7">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="1">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="2">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="3">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="4">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="5">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="6">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="7">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTableWidget" name="TABLE_ADC2">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>120</height>
+          </size>
+         </property>
+         <row>
+          <property name="text">
+           <string>Original</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>JavaScript</string>
+          </property>
+         </row>
+         <row>
+          <property name="text">
+           <string>Value</string>
+          </property>
+         </row>
+         <column>
+          <property name="text">
+           <string>ADC9</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>ADC10</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>ADC11</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>ADC12</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>ADC13</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>ADC14</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>ADC15</string>
+          </property>
+         </column>
+         <column>
+          <property name="text">
+           <string>ADC16</string>
+          </property>
+         </column>
+         <item row="0" column="0">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="1">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="2">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="3">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="4">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="5">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="6">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="0" column="7">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="0">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="1">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="2">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="3">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="4">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="5">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="6">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+         <item row="2" column="7">
+          <property name="text">
+           <string>0</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
